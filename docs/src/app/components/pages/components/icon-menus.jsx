@@ -45,11 +45,11 @@ class IconMenus extends React.Component {
     let MenuDivider = require('material-ui/lib/menus/menu-divider');
 
     <IconMenu iconButtonElement={iconButtonElement}>
-      <MenuItem>Refresh</MenuItem>
-      <MenuItem>Send Feedback More</MenuItem>
-      <MenuItem>Settings</MenuItem>
-      <MenuItem>Help</MenuItem>
-      <MenuItem>Sign out</MenuItem>
+      <MenuItem primaryText='Refresh'/>
+      <MenuItem primaryText='Send Feedback More'/>
+      <MenuItem primaryText='Settings'/>
+      <MenuItem primaryText='Help'/>
+      <MenuItem primaryText='Sign  out'/>
     </IconMenu>
     `;
 
@@ -155,41 +155,41 @@ class IconMenus extends React.Component {
 
         <p>Menu with various open directions
         <IconMenu iconButtonElement={iconButtonElement}>
-          <MenuItem>Refresh</MenuItem>
-          <MenuItem>Send Feedback</MenuItem>
-          <MenuItem>Settings</MenuItem>
-          <MenuItem>Help</MenuItem>
-          <MenuItem>Sign out</MenuItem>
+          <MenuItem primaryText='Refresh'/>
+          <MenuItem primaryText='Send Feedback More'/>
+          <MenuItem primaryText='Settings'/>
+          <MenuItem primaryText='Help'/>
+          <MenuItem primaryText='Sign  out'/>
         </IconMenu>
 
         <IconMenu
           iconButtonElement={iconButtonElement}
           openDirection="bottom-right">
-          <MenuItem>Refresh</MenuItem>
-          <MenuItem>Send Feedback</MenuItem>
-          <MenuItem>Settings</MenuItem>
-          <MenuItem>Help</MenuItem>
-          <MenuItem>Sign out</MenuItem>
+          <MenuItem primaryText='Refresh'/>
+          <MenuItem primaryText='Send Feedback More'/>
+          <MenuItem primaryText='Settings'/>
+          <MenuItem primaryText='Help'/>
+          <MenuItem primaryText='Sign  out'/>
         </IconMenu>
 
         <IconMenu
           iconButtonElement={iconButtonElement}
           openDirection="top-left">
-          <MenuItem>Refresh</MenuItem>
-          <MenuItem>Send Feedback</MenuItem>
-          <MenuItem>Settings</MenuItem>
-          <MenuItem>Help</MenuItem>
-          <MenuItem>Sign out</MenuItem>
+          <MenuItem primaryText='Refresh'/>
+          <MenuItem primaryText='Send Feedback More'/>
+          <MenuItem primaryText='Settings'/>
+          <MenuItem primaryText='Help'/>
+          <MenuItem primaryText='Sign  out'/>
         </IconMenu>
 
         <IconMenu
           iconButtonElement={iconButtonElement}
           openDirection="top-right">
-          <MenuItem>Refresh</MenuItem>
-          <MenuItem>Send Feedback</MenuItem>
-          <MenuItem>Settings</MenuItem>
-          <MenuItem>Help</MenuItem>
-          <MenuItem>Sign out</MenuItem>
+          <MenuItem primaryText='Refresh'/>
+          <MenuItem primaryText='Send Feedback More'/>
+          <MenuItem primaryText='Settings'/>
+          <MenuItem primaryText='Help'/>
+          <MenuItem primaryText='Sign  out'/>
         </IconMenu>
         </p>
 
@@ -492,9 +492,7 @@ class IconMenus extends React.Component {
             <MenuItem value="WI">Wisconsin</MenuItem>
             <MenuItem value="WY">Wyoming</MenuItem>
           </IconMenu>
-
         </p>
-
       </ComponentDoc>
     );
 
