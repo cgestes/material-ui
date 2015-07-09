@@ -26,6 +26,7 @@ let MenuItem = React.createClass({
     ]),
     leftIcon: React.PropTypes.element,
     rightIcon: React.PropTypes.element,
+    primaryText: React.PropTypes.node,
     secondaryText: React.PropTypes.node,
     value: React.PropTypes.string,
   },
@@ -54,6 +55,7 @@ let MenuItem = React.createClass({
       insetChildren,
       leftIcon,
       rightIcon,
+      primaryText,
       secondaryText,
       style,
       value,
@@ -132,7 +134,9 @@ let MenuItem = React.createClass({
         leftIcon={styledLeftIcon}
         ref="listItem"
         rightIcon={rightIconElement}
-        style={mergedRootStyles}>
+        style={mergedRootStyles}
+        primaryText={primaryText}
+        >
         {this.props.children}
         {secondaryTextElement}
       </ListItem>
